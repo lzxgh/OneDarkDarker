@@ -535,13 +535,13 @@
     },
     "ToggleButton": {
       "borderColor": "{{theme.colors.base4}}",
-      "buttonColor": "{{theme.colors.base9}}",
+      "buttonColor": "{{theme.colors.base7}}",
       "disabledText": "{{theme.colors.base6}}",
-      "foreground": "{{theme.colors.base8}}",
-      "offForeground": "{{theme.colors.base2}}",
+      "foreground": "{{theme.colors.base9}}",
+      "offForeground": "{{theme.colors.red_1}}",
       "offBackground": "{{theme.colors.base2}}",
-      "onBackground": "{{theme.colors.base9}}",
-      "onForeground": "{{theme.colors.base9}}"
+      "onBackground": "{{theme.colors.green}}",
+      "onForeground": "{{theme.colors.base10}}"
     },
     "ToolBar": {
       "background": "{{theme.colors.base1}}",

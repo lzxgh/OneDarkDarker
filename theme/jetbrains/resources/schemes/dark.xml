@@ -39,8 +39,10 @@
     <option name="FILESTATUS_addedOutside" value="{{theme.colors.green}}" />
     <option name="FILESTATUS_changelistConflict" value="f65f87" />
     <option name="FILESTATUS_modifiedOutside" value="{{theme.colors.cyan}}" />
+    <option name="ERROR_HINT" value="781732"/>
+    <option name="LOOKUP_COLOR" value="{{theme.colors.base0}}"/>
     <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
-    <option name="INDENT_GUIDE" value="{{theme.colors.base3}}" />
+    <option name="INDENT_GUIDE" value="{{theme.colors.base4}}" />
     <option name="INFORMATION_HINT" value="{{theme.colors.base4}}" />
     <option name="LINE_NUMBERS_COLOR" value="{{theme.colors.base6}}" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
@@ -77,7 +79,7 @@
     <option name="ScrollBar.trackColor" value="{{theme.colors.base2}}" />
     <option name="TAB_UNDERLINE" value="{{theme.colors.base10}}" />
     <option name="TAB_UNDERLINE_INACTIVE" value="{{theme.colors.base10}}" />
-    <option name="TEARLINE_COLOR" value="{{theme.colors.base3}}" />
+    <option name="TEARLINE_COLOR" value="{{theme.colors.base5}}" />
     <option name="TOOLTIP" value="{{theme.colors.base4}}" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="{{theme.colors.base5}}" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="59575a" />
