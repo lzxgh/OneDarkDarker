@@ -2,16 +2,14 @@
   <id>com.your.company.unique.plugin.id</id>
   <name>Plugin display name here</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.obe.com">Obelisk</vendor>
+  <vendor email="lzxwacc@gmail.com" url="http://www.obe.com">Obelisk</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      One Dark Darker Theme
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      Add complete popup color
     ]]>
   </change-notes>
 
