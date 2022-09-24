@@ -244,103 +244,116 @@
         <option name="FOREGROUND" value="536c46" />
       </value>
     </option>
-    <option name="CONSOLE_cyan_BRIGHT_OUTPUT">
+    <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FOREGROUND" value="000000"/>
       </value>
     </option>
-    <option name="CONSOLE_cyan_OUTPUT">
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}"/>
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
+        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
+        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}"/>
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="464c55"/>
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
+        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base8}}" />
+        <option name="ERROR_STRIPE_COLOR" value="21252b"/>
+        <option name="FOREGROUND" value="646a73"/>
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.green}}" />
+        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.green}}" />
+        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FOREGROUND" value="{{theme.palette.purple}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FOREGROUND" value="{{theme.palette.purple}}"/>
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base10}}" />
-      </value>
-    </option>
-    <option name="CONSOLE_OUTPUT">
-      <value>
-        <option name="BACKGROUND" value="{{theme.colors.base10}}" />
+        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}"/>
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
-      <value />
+      <value>
+        <option name="EFFECT_COLOR" value="{{theme.palette.dark}}"/>
+      </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
+        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
+        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base10}}" />
+        <option name="FOREGROUND" value="e7f2ff"/>
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base10}}" />
+        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}"/>
       </value>
     </option>
-    <option name="CONSOLE_orange_2_BRIGHT_OUTPUT">
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
+        <option name="FOREGROUND" value="{{theme.palette.chalky}}"/>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
       </value>
     </option>
-    <option name="CONSOLE_orange_2_OUTPUT">
+    <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
+        <option name="FOREGROUND" value="{{theme.palette.chalky}}"/>
       </value>
     </option>
     <option name="CSS.ATTRIBUTE_NAME">

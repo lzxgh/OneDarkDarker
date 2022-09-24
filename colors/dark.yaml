@@ -19,4 +19,22 @@ dark:
     base8: "#9da5b4"
     base9: "#abb2bf"
     base10: "#e6e6e6"
+
+  palette:
+    chalky: "#e1c07b"
+    coral: "#ef596f"
+    dark: "#5c6370"
+    error: "#f44747"
+    fountainBlue: "#2bbac5"
+    green: "#89ca78"
+    lightWhite: "#bbbbbb"
+    malibu: "#61afef"
+    purple: "#d55fde"
+    whiske": "#d19a66"
+  
+  fontVariant:
+    none: 0
+    bold: 1
+    italic: 2
+    boldItalic: 3
   
