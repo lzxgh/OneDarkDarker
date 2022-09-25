@@ -302,14 +302,14 @@
       "foreground": "{{theme.colors.base8}}"
     },
     "ParameterInfo": {
-      "background": "{{theme.colors.base4}}",
-      "borderColor": "{{theme.colors.base3}}",
-      "currentOverloadBackground": "{{theme.colors.base4}}",
+      "background": "{{theme.colors.base0}}",
+      "borderColor": "{{theme.colors.base1}}",
+      "currentOverloadBackground": "{{theme.colors.base0}}",
       "currentParameterForeground": "{{theme.colors.base9}}",
-      "disabledForeground": "{{theme.colors.base6}}",
-      "foreground": "{{theme.colors.base9}}",
-      "infoForeground": "{{theme.colors.base8}}",
-      "lineSeparatorColor": "{{theme.colors.base3}}"
+      "disabledForeground": "{{theme.colors.base8}}",
+      "foreground": "{{theme.colors.base10}}",
+      "infoForeground": "{{theme.colors.base9}}",
+      "lineSeparatorColor": "{{theme.colors.base0}}"
     },
     "PasswordField": {
       "background": "{{theme.colors.base4}}",
