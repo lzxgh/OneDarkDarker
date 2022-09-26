@@ -35,8 +35,8 @@
     <option name="FILESTATUS_addedOutside" value="{{theme.colors.green}}" />
     <option name="FILESTATUS_changelistConflict" value="f65f87" />
     <option name="FILESTATUS_modifiedOutside" value="{{theme.colors.cyan}}" />
-    <option name="ERROR_HINT" value="781732"/>
-    <option name="LOOKUP_COLOR" value="{{theme.colors.base0}}"/>
+    <option name="ERROR_HINT" value="781732" />
+    <option name="LOOKUP_COLOR" value="{{theme.colors.base0}}" />
     <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
     <option name="INDENT_GUIDE" value="{{theme.colors.base4}}" />
     <option name="INFORMATION_HINT" value="{{theme.colors.base4}}" />
@@ -125,7 +125,7 @@
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="BACKGROUND">
@@ -142,7 +142,6 @@
     <option name="BASH.EXTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="BNF_KEYWORD">
@@ -157,7 +156,6 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="dbdbdb" />
       </value>
     </option>
@@ -200,7 +198,6 @@
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -226,142 +223,139 @@
     <option name="COFFEESCRIPT.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="COFFEESCRIPT.THIS">
       <value>
         <option name="FOREGROUND" value="c1c0c0" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="000000"/>
+        <option name="FOREGROUND" value="000000" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.malibu}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.malibu}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.fountainBlue}}" />
       </value>
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="464c55"/>
+        <option name="FOREGROUND" value="464c55" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.coral}}" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="21252b"/>
-        <option name="FOREGROUND" value="646a73"/>
+        <option name="ERROR_STRIPE_COLOR" value="21252b" />
+        <option name="FOREGROUND" value="646a73" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.green}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.green}}" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.purple}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.purple}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.purple}}" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}" />
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
       <value>
-        <option name="EFFECT_COLOR" value="{{theme.palette.dark}}"/>
+        <option name="EFFECT_COLOR" value="{{theme.palette.dark}}" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.coral}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.coral}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.coral}}" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="e7f2ff"/>
+        <option name="FOREGROUND" value="e7f2ff" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.green}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.green}}" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.lightWhite}}" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.chalky}}"/>
-        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.chalky}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{theme.palette.chalky}}"/>
+        <option name="FOREGROUND" value="{{theme.palette.chalky}}" />
       </value>
     </option>
     <option name="CSS.ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.COLON">
@@ -383,7 +377,6 @@
     <option name="CSS.HASH">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.PROPERTY_NAME">
@@ -399,12 +392,12 @@
     <option name="CSS.PSEUDO">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CSS.URL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -417,24 +410,22 @@
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -446,11 +437,13 @@
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -461,7 +454,7 @@
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -497,20 +490,18 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -561,7 +552,6 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -573,18 +563,19 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -595,6 +586,7 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -610,7 +602,6 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -621,7 +612,6 @@
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -634,7 +624,6 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="f78c6c" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -647,13 +636,11 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -788,7 +775,7 @@
     <option name="GO_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="GO_BUILTIN_CONSTANT">
@@ -799,7 +786,6 @@
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
@@ -815,7 +801,6 @@
     <option name="GO_EXPORTED_FUNCTION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION_CALL">
@@ -831,13 +816,13 @@
     <option name="GO_KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="GO_LOCAL_CONSTANT">
@@ -858,7 +843,6 @@
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_PACKAGE">
@@ -869,7 +853,6 @@
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_PACKAGE_LOCAL_CONSTANT">
@@ -890,19 +873,16 @@
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HAML_RUBY_START">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HAML_TAG">
@@ -918,19 +898,17 @@
     <option name="HOCON_BOOLEAN">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HOCON_NULL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -992,7 +970,6 @@
     <option name="IGNORE.BRACKET">
       <value>
         <option name="FOREGROUND" value="727272" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.COMMENT">
@@ -1003,13 +980,11 @@
     <option name="IGNORE.HEADER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.NEGATION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.SECTION">
@@ -1025,7 +1000,6 @@
     <option name="IGNORE.SYNTAX">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IGNORE.VALUE">
@@ -1078,28 +1052,30 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-     <option name="JAVA.IMPORT_PACKAGE">
+    <option name="JAVA.IMPORT_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
       </value>
     </option>
     <option name="JAVA.STATIC_FINAL">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
       </value>
     </option>
     <option name="JAVA.THIS_SUPER">
       <value>
-        <option name="FOREGROUND" value="c1c0c0"/>
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="c1c0c0" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
+      </value>
+    </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.cyan}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
       </value>
     </option>
     <option name="JFLEX_MACROS_REF">
@@ -1115,19 +1091,16 @@
     <option name="JS.DEBUGGER_STMT">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.FUNCTION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1148,7 +1121,6 @@
     <option name="JS.MODULE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.NULL_UNDEFINED">
@@ -1164,19 +1136,16 @@
     <option name="JS.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="c1c0c0" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.VAR_DEF">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JSON.KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JUPYTER_SELECTED_CELL">
@@ -1187,7 +1156,6 @@
     <option name="KOTLIN_ANNOTATION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_ARROW">
@@ -1211,12 +1179,13 @@
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="KOTLIN_EXCLEXCL">
@@ -1226,18 +1195,20 @@
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
       <value />
     </option>
     <option name="KOTLIN_LABEL">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
@@ -1248,7 +1219,6 @@
     <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
@@ -1266,12 +1236,10 @@
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LABEL">
       <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -1339,7 +1307,6 @@
     <option name="LUA_SELF">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LUA_STD_API">
@@ -1437,25 +1404,22 @@
     <option name="MARKDOWN_BLOCK_QUOTE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_BLOCK_QUOTE_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_BOLD">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
       </value>
     </option>
     <option name="MARKDOWN_BOLD_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_BLOCK">
@@ -1469,13 +1433,11 @@
     <option name="MARKDOWN_CODE_SPAN">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_SPAN_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_EXPLICIT_LINK">
@@ -1541,13 +1503,12 @@
     <option name="MARKDOWN_ITALIC">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="MARKDOWN_ITALIC_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_LINK_DEFINITION">
@@ -1574,12 +1535,12 @@
     <option name="MARKDOWN_LINK_TITLE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="MARKDOWN_LIST_MARKER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ABBREVIATED_TEXT">
@@ -1596,7 +1557,6 @@
     <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_EXPANDED_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_SHORT_TEXT">
@@ -1624,7 +1584,6 @@
     <option name="MARKDOWN_NAVIGATOR.BOLD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_MARKER">
@@ -1636,21 +1595,18 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ITALIC_TEXT_CODE_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1679,7 +1635,6 @@
     <option name="MARKDOWN_NAVIGATOR.DEFINITION_TERM">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.EMOJI_ID">
@@ -1715,7 +1670,6 @@
     <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f59762" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1756,7 +1710,6 @@
     <option name="MARKDOWN_NAVIGATOR.ITALIC">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ITALIC_MARKER">
@@ -1768,7 +1721,6 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1781,7 +1733,6 @@
     <option name="MARKDOWN_NAVIGATOR.JEKYLL_FRONT_MATTER_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.JEKYLL_TAG_MARKER">
@@ -1793,13 +1744,11 @@
     <option name="MARKDOWN_NAVIGATOR.JEKYLL_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.JEKYLL_TAG_PARAMETERS">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1823,7 +1772,6 @@
     <option name="MARKDOWN_NAVIGATOR.ORDERED_LIST">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.QUOTE">
@@ -1896,7 +1844,6 @@
     <option name="MARKDOWN_NAVIGATOR.SETEXT_HEADER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.SIM_TOC_TITLE">
@@ -1929,7 +1876,6 @@
     <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH_TEXT_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1938,7 +1884,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1946,7 +1891,6 @@
     <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH_TEXT_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="5789dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1955,7 +1899,6 @@
       <value>
         <option name="FOREGROUND" value="5789dd" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1971,7 +1914,6 @@
     <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1980,7 +1922,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2015,7 +1956,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CAPTION">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CAPTION_MARKER">
@@ -2032,21 +1972,18 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN_STRIKETHROUGH_TEXT">
@@ -2061,7 +1998,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2070,7 +2006,6 @@
       <value>
         <option name="FOREGROUND" value="5789dd" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2079,7 +2014,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2093,21 +2027,18 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD_STRIKETHROUGH_TEXT">
@@ -2122,7 +2053,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2131,7 +2061,6 @@
       <value>
         <option name="FOREGROUND" value="5789dd" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2140,7 +2069,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2151,19 +2079,16 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT">
@@ -2176,7 +2101,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2184,7 +2108,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="5789dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2192,7 +2115,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2203,19 +2125,16 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_STRIKETHROUGH_TEXT">
@@ -2228,7 +2147,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_STRIKETHROUGH_TEXT_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2236,7 +2154,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_STRIKETHROUGH_TEXT_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="5789dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2244,7 +2161,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_STRIKETHROUGH_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2253,21 +2169,18 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CEVEN_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CEVEN_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CEVEN_STRIKETHROUGH_TEXT">
@@ -2282,7 +2195,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2291,7 +2203,6 @@
       <value>
         <option name="FOREGROUND" value="5789dd" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2300,7 +2211,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2309,21 +2219,18 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_STRIKETHROUGH_TEXT">
@@ -2338,7 +2245,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2347,7 +2253,6 @@
       <value>
         <option name="FOREGROUND" value="5789dd" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2356,7 +2261,6 @@
       <value>
         <option name="FOREGROUND" value="7867e7" />
         <option name="BACKGROUND" value="{{theme.colors.base4}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2364,19 +2268,16 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT">
@@ -2389,7 +2290,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2397,7 +2297,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="5789dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2405,7 +2304,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2413,19 +2311,16 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_STRIKETHROUGH_TEXT">
@@ -2438,7 +2333,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_STRIKETHROUGH_TEXT_BOLD_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2446,7 +2340,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_STRIKETHROUGH_TEXT_BOLD_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="5789dd" />
-        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2454,7 +2347,6 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_STRIKETHROUGH_TEXT_ITALIC_TEXT">
       <value>
         <option name="FOREGROUND" value="7867e7" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -2486,7 +2378,6 @@
     <option name="MARKDOWN_NAVIGATOR.TOC">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TOC_MARKER">
@@ -2497,7 +2388,6 @@
     <option name="MARKDOWN_NAVIGATOR.TOC_OPTION">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.UNDERLINE">
@@ -2520,13 +2410,11 @@
     <option name="MARKDOWN_NAVIGATOR.VERBATIM_LANG">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.VERBATIM_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.WIKI_LINK">
@@ -2547,7 +2435,6 @@
     <option name="MARKDOWN_NAVIGATOR.WIKI_LINK_REF_ANCHOR_MARKER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.WIKI_LINK_SEPARATOR">
@@ -2579,7 +2466,6 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3b514d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -2642,19 +2528,16 @@
     <option name="OC.MACRONAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.MACRO_PARAMETER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.OVERLOADED_OPERATOR">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.PROPERTY">
@@ -2671,13 +2554,11 @@
     <option name="OC.PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.SELFSUPERTHIS">
       <value>
         <option name="FOREGROUND" value="c1c0c0" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.STRUCT_FIELD">
@@ -2693,24 +2574,22 @@
     <option name="OC.TYPEDEF">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP.FUNCTION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP.THIS_SELF">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_ALIAS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
     <option name="PHP_CLASS">
@@ -2759,13 +2638,11 @@
     <option name="PHP_INTERFACE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_NUMBER">
@@ -2776,13 +2653,11 @@
     <option name="PHP_PARAMETER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_PREDEFINED SYMBOL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
@@ -2793,19 +2668,16 @@
     <option name="PHP_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_TAG">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_VAR">
@@ -2816,7 +2688,6 @@
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PROTOCOL_REFERENCE">
@@ -2827,7 +2698,6 @@
     <option name="PY.BUILTIN_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -2838,31 +2708,28 @@
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="c1c0c0" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="PY.STRING">
@@ -2878,7 +2745,6 @@
     <option name="RDOC_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="RDOC_EMAIL">
@@ -2889,7 +2755,6 @@
     <option name="RDOC_HEADINGS">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="RDOC_IDENTIFIER">
@@ -2900,7 +2765,6 @@
     <option name="RDOC_KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RDOC_URL">
@@ -2938,7 +2802,6 @@
     <option name="RHTML_OMIT_NEW_LINE_ID">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RHTML_SCRIPTLET_END_ID">
@@ -2985,7 +2848,7 @@
     <option name="RUBY_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
       </value>
     </option>
     <option name="RUBY_CONSTANT">
@@ -3001,7 +2864,6 @@
     <option name="RUBY_CVAR">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_ESCAPE_SEQUENCE">
@@ -3029,7 +2891,6 @@
     <option name="RUBY_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
@@ -3061,7 +2922,6 @@
     <option name="RUBY_NTH_REF">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_NUMBER">
@@ -3072,13 +2932,11 @@
     <option name="RUBY_PARAMDEF_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_PARAMETER_ID">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_REGEXP">
@@ -3090,7 +2948,6 @@
     <option name="RUBY_SPECIFIC_CALL">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_SYMBOL">
@@ -3111,7 +2968,6 @@
     <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE">
@@ -3122,13 +2978,11 @@
     <option name="ReSharper.ASP_NET_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ENTITY_REFERENCE">
@@ -3139,7 +2993,6 @@
     <option name="ReSharper.ASP_NET_MVC_ACTION">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -3170,7 +3023,6 @@
     <option name="ReSharper.ASP_NET_RAZOR_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_ATTRIBUTE_VALUE">
@@ -3186,7 +3038,6 @@
     <option name="ReSharper.ASP_NET_RAZOR_COMMENT">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base7}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_ENTITY_REFERENCE">
@@ -3202,7 +3053,6 @@
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_TAG_NAME">
@@ -3221,7 +3071,6 @@
     <option name="ReSharper.CPP_DOXYGEN_COMMAND">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
@@ -3232,13 +3081,11 @@
     <option name="ReSharper.CPP_PREPROCESSOR_MACRO_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.red_1}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.DELEGATE_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.ENUM_IDENTIFIER">
@@ -3249,7 +3096,6 @@
     <option name="ReSharper.EVENT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
@@ -3290,7 +3136,6 @@
     <option name="ReSharper.STATIC_CLASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.STRUCT_IDENTIFIER">
@@ -3308,7 +3153,6 @@
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SASS_VARIABLE">
@@ -3325,13 +3169,11 @@
     <option name="SLIM_CLASS">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SLIM_TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SMARTY_BACKGROUND">
@@ -3409,14 +3251,12 @@
     <option name="Scala Immutable Collection">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.base9}}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="Scala Mutable Collection">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="{{theme.colors.purple}}" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -3424,13 +3264,11 @@
     <option name="Scala Predefined types">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="StandardF Java Collection">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.green}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="Static property reference ID">
@@ -3470,18 +3308,17 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="87cefa" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
       </value>
     </option>
     <option name="TS.MODULE_NAME">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.PRIVATE_PUBLIC">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -3512,7 +3349,6 @@
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TYPO">
@@ -3531,7 +3367,7 @@
     <option name="VELOCITY_KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="VELOCITY_NUMBER">
@@ -3582,7 +3418,7 @@
     <option name="XPATH.KEYWORD">
       <value>
         <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
       </value>
     </option>
     <option name="XPATH.NUMBER">
@@ -3593,7 +3429,6 @@
     <option name="XPATH.STRING">
       <value>
         <option name="FOREGROUND" value="f59762" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="YAML_ANCHOR">
@@ -3611,6 +3446,163 @@
       <value>
         <option name="FOREGROUND" value="{{theme.colors.orange_2}}" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="BASH.HERE_DOC_END">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="BASH.HERE_DOC_START">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="BASH.SHEBANG">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.boldItalic}}" />
+      </value>
+    </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="CSS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
+      </value>
+    </option>
+    <option name="Clojure Line comment">
+      <value>
+        <option name="FOREGROUND" value="59626f" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
+      </value>
+    </option>
+    <option name="Clojure Literal">
+      <value>
+        <option name="FOREGROUND" value="fda5ff" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
+      </value>
+    </option>
+    <option name="DJANGO_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="FIRST SYMBOL IN LIST">
+      <value>
+        <option name="FOREGROUND" value="df6a73" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION">
+      <value>
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HAML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
+      </value>
+    </option>
+    <option name="HAML_FILTER">
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="JADE_FILTER_NAME">
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="JADE_STATEMENTS">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="KOTLIN_ABSTRACT_CLASS">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
+      </value>
+    </option>
+    <option name="KOTLIN_TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
+      </value>
+    </option>
+    <option name="OC.DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.attributesStyle}}" />
+      </value>
+    </option>
+    <option name="OC.LABEL">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base9}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="ReSharper.IL_TARGET_CODE_LABEL">
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="SLIM_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.commentStyle}}" />
+      </value>
+    </option>
+    <option name="SLIM_FILTER">
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="SWIFT_SHEBANG_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.boldItalic}}" />
+      </value>
+    </option>
+    <option name="VELOCITY_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="com.plan9.LABEL">
+      <value>
+        <option name="FONT_TYPE" value="{{theme.fontVariant.bold}}" />
+      </value>
+    </option>
+    <option name="org.rust.LIFETIME">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.cyan}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.orange_1}}" />
+        <option name="FONT_TYPE" value="{{theme.fontVariant.italic}}" />
       </value>
     </option>
   </attributes>

@@ -31,10 +31,14 @@ dark:
     malibu: "#61afef"
     purple: "#d55fde"
     whiske": "#d19a66"
-  
+
   fontVariant:
     none: 0
     bold: 1
     italic: 2
     boldItalic: 3
-  
+
+  italicStyle:
+    commentStyle: 2
+    keywordStyle: 2
+    attributesStyle: 2
