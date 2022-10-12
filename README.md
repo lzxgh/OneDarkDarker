@@ -1,6 +1,8 @@
-# Atom One
+# One Dark Darker theme for JetBrains.
 
-The Atom One theme, adapted by Subtheme.
+Modified from [Atom One Theme](https://github.com/subtheme-dev/atom-one)
+
+![Atom One Dark](screenshots/one-dark-darker.png)
 
 Supported apps:
 - [JetBrains](theme/jetbrains)
