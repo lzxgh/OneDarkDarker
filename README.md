@@ -2,7 +2,7 @@
 
 Modified from [Atom One Theme](https://github.com/subtheme-dev/atom-one)
 
-![Atom One Dark](screenshots/one-dark-darker.png)
+![Atom One Dark](theme/jetbrains/screenshots/one-dark-darker.png)
 
 Supported apps:
 - [JetBrains](theme/jetbrains)
