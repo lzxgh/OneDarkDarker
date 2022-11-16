@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.obelisk.onedarkdarker</id>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -32,7 +32,9 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    change keywords style to italic
+     1.0.9: improve jupyter notebook colors.
+
+     1.0.8: change keywords style to italic.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

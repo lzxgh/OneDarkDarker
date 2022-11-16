@@ -40,6 +40,10 @@
     <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
     <option name="INDENT_GUIDE" value="{{theme.colors.base4}}" />
     <option name="INFORMATION_HINT" value="{{theme.colors.base4}}" />
+    <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="{{theme.palette.malibu}}" />
+    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="{{theme.colors.base0}}" />
+    <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="{{theme.palette.malibu}}" />
+    <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="{{theme.colors.base4}}" />
     <option name="LINE_NUMBERS_COLOR" value="{{theme.colors.base6}}" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
     <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
@@ -1027,7 +1031,9 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value />
+      <value>
+        <option name="BACKGROUND" value="{{theme.colors.base0}}"/>
+      </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
@@ -1148,9 +1154,15 @@
         <option name="FOREGROUND" value="{{theme.colors.purple}}" />
       </value>
     </option>
+    <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
+      <value>
+        <option name="FOREGROUND" value="a0a7b4" />
+        <option name="BACKGROUND" value="3d424b" />
+      </value>
+    </option>
     <option name="JUPYTER_SELECTED_CELL">
       <value>
-        <option name="BACKGROUND" value="{{theme.colors.base4}}" />
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}"/>
       </value>
     </option>
     <option name="KOTLIN_ANNOTATION">
