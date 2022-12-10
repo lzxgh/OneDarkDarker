@@ -27,10 +27,12 @@ dark:
     error: "#f44747"
     fountainBlue: "#2bbac5"
     green: "#89ca78"
+    lightDark: "#7f848e"
     lightWhite: "#bbbbbb"
     malibu: "#61afef"
     purple: "#d55fde"
     whiske": "#d19a66"
+    deepRed: "#BE5046"
 
   fontVariant:
     none: 0

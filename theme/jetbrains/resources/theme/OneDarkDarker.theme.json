@@ -165,7 +165,13 @@
     "Editor": {
       "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
-      "shortcutForeground": "{{theme.colors.base8}}"
+      "SearchField": {
+        "background": "{{theme.colors.base3}}"
+      },
+      "shortcutForeground": "accentColor",
+      "ToolTip": {
+        "background": "{{theme.colors.base4}}"
+      }
     },
     "EditorPane": {
       "background": "{{theme.colors.base1}}",
@@ -384,13 +390,19 @@
       "stripeIndent": 5
     },
     "ProgressBar": {
-      "background": "{{theme.colors.base2}}",
-      "foreground": "{{theme.colors.base9}}",
-      "indeterminateEndColor": "{{theme.colors.base9}}",
-      "indeterminateStartColor": "{{theme.colors.base9}}",
-      "progressColor": "{{theme.colors.base9}}",
-      "selectionBackground": "{{theme.colors.base6}}",
-      "trackColor": "{{theme.colors.base6}}"
+      "trackColor": "{{theme.colors.base0}}",
+      "progressColor": "accentColor",
+      "indeterminateStartColor": "{{theme.palette.malibu}}",
+      "indeterminateEndColor": "accentColor",
+      "failedColor": "{{theme.palette.deepRed}}",
+      "failedEndColor": "{{theme.palette.error}}",
+      "passedColor": "#2b4242",
+      "passedEndColor": "#239E62"
+    },
+    "RunWidget": {
+      "foreground": "{{theme.colors.base10}}",
+      "separatorColor": "{{theme.colors.base5}}",
+      "background": "{{theme.colors.base3}}"
     },
     "RadioButton": {
       "background": "{{theme.colors.base2}}",
@@ -420,7 +432,7 @@
         "separatorForeground": "{{theme.colors.base8}}"
       },
       "SearchField": {
-        "background": "{{theme.colors.base2}}",
+        "background": "{{theme.colors.base3}}",
         "borderColor": "{{theme.colors.base1}}",
         "infoForeground": "{{theme.colors.base8}}"
       },

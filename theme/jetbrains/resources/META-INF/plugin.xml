@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.obelisk.onedarkdarker</id>
-    <version>1.0.9</version>
+    <version>1.1.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -20,21 +20,16 @@
     <description><![CDATA[
     One Dark Darker theme for JetBrains.
 
-    Modified from <a href="https://plugins.jetbrains.com/plugin/14799-atom-one-theme">Atom One Theme</a>.
-
     <ul>
      <li>Darker background color</li>
      <li>Italic style keywords</li>
-     <li>Improve terminal colors</li>
     </ul>
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-     1.0.9: improve jupyter notebook colors.
-
-     1.0.8: change keywords style to italic.
+     Imporve NewUI Run Widget style and C/C++ color scheme.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

@@ -2519,7 +2519,7 @@
     </option>
     <option name="OC.CONDITIONALLY_NOT_COMPILED">
       <value>
-        <option name="BACKGROUND" value="{{theme.colors.base4}}" />
+        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
       </value>
     </option>
     <option name="OC.CPP_KEYWORD">
