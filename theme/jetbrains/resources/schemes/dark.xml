@@ -5,90 +5,64 @@
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
-    <option name="ADDED_LINES_COLOR" value="{{theme.colors.green}}" />
-    <option name="ANNOTATIONS_COLOR" value="fffbf7" />
-    <option name="CARET_COLOR" value="{{theme.colors.base10}}" />
-    <option name="CARET_ROW_COLOR" value="{{theme.colors.base3}}" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="{{theme.colors.base2}}" />
-    <option name="DELETED_LINES_COLOR" value="{{theme.colors.red_1}}" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
-    <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
-    <option name="DOCUMENTATION_COLOR" value="{{theme.colors.base4}}" />
-    <option name="FILESTATUS_ADDED" value="{{theme.colors.green}}" />
-    <option name="FILESTATUS_COPIED" value="{{theme.colors.green}}" />
-    <option name="FILESTATUS_DELETED" value="{{theme.colors.base5}}" />
-    <option name="FILESTATUS_HIJACKED" value="{{theme.colors.orange_2}}" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{{theme.colors.base5}}" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{{theme.colors.orange_1}}" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{{theme.colors.orange_1}}" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{{theme.colors.orange_1}}" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="{{theme.colors.green}}" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="FILESTATUS_MERGED" value="{{theme.colors.purple}}" />
-    <option name="FILESTATUS_MODIFIED" value="{{theme.colors.cyan}}" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{{theme.colors.cyan}}" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{{theme.colors.cyan}}" />
-    <option name="FILESTATUS_SUPPRESSED" value="{{theme.colors.base5}}" />
-    <option name="FILESTATUS_SWITCHED" value="{{theme.colors.purple}}" />
-    <option name="FILESTATUS_UNKNOWN" value="f59762" />
-    <option name="FILESTATUS_addedOutside" value="{{theme.colors.green}}" />
-    <option name="FILESTATUS_changelistConflict" value="f65f87" />
-    <option name="FILESTATUS_modifiedOutside" value="{{theme.colors.cyan}}" />
-    <option name="ERROR_HINT" value="781732" />
-    <option name="LOOKUP_COLOR" value="{{theme.colors.base0}}" />
-    <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
-    <option name="INDENT_GUIDE" value="{{theme.colors.base4}}" />
-    <option name="INFORMATION_HINT" value="{{theme.colors.base4}}" />
-    <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="{{theme.palette.malibu}}" />
-    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="{{theme.colors.base0}}" />
-    <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="{{theme.palette.malibu}}" />
-    <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="{{theme.colors.base4}}" />
-    <option name="LINE_NUMBERS_COLOR" value="{{theme.colors.base6}}" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
-    <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
-    <option name="MODIFIED_LINES_COLOR" value="{{theme.colors.orange_1}}" />
-    <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="MT_SUPPRESSED" value="eeffff" />
-    <option name="NOTIFICATION_BACKGROUND" value="19181a" />
-    <option name="NOT_CHANGED" value="939393" />
-    <option name="QUESTION_HINT" value="{{theme.colors.base4}}" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="{{theme.colors.base1}}" />
-    <option name="RIGHT_MARGIN_COLOR" value="{{theme.colors.base4}}" />
-    <option name="SELECTED_INDENT_GUIDE" value="{{theme.colors.cyan}}" />
-    <option name="SELECTED_TEARLINE_COLOR" value="{{theme.colors.base10}}" />
-    <option name="SELECTION_BACKGROUND" value="{{theme.colors.base5}}" />
-    <option name="SEPARATOR_ABOVE_COLOR" value="{{theme.colors.base3}}" />
-    <option name="SEPARATOR_BELOW_COLOR" value="{{theme.colors.base3}}" />
-    <option name="SOFT_WRAP_SIGN_COLOR" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.Mac.thumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Mac.trackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.Transparent.thumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.Transparent.trackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.hoverThumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.hoverTrackColor" value="{{theme.colors.base2}}" />
-    <option name="ScrollBar.thumbColor" value="{{theme.colors.base4}}" />
-    <option name="ScrollBar.trackColor" value="{{theme.colors.base2}}" />
-    <option name="TAB_UNDERLINE" value="{{theme.colors.base10}}" />
-    <option name="TAB_UNDERLINE_INACTIVE" value="{{theme.colors.base10}}" />
-    <option name="TEARLINE_COLOR" value="{{theme.colors.base5}}" />
-    <option name="TOOLTIP" value="{{theme.colors.base4}}" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="{{theme.colors.base5}}" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="59575a" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="{{theme.colors.red_1}}" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="39adb5" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="f59762" />
-    <option name="VISUAL_INDENT_GUIDE" value="{{theme.colors.base4}}" />
-    <option name="WHITESPACES" value="59575a" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{{theme.colors.base5}}" />
+    <option name="ADDED_LINES_COLOR" value="{{theme.colors.green}}"/>
+    <option name="ANNOTATIONS_COLOR" value="a0a7b4"/>
+    <option name="Bookmark.Mnemonic.iconForeground" value="a0a7b4"/>
+    <option name="Bookmark.Mnemonic.iconBackground" value="3d424b"/>
+    <option name="Bookmark.Mnemonic.iconBorderColor" value="568AF2"/>
+    <option name="BookmarkMnemonicIcon.foreground" value="a0a7b4"/>
+    <option name="BookmarkMnemonicIcon.background" value="3d424b"/>
+    <option name="BookmarkMnemonicIcon.borderColor" value="568AF2"/>
+    <option name="CARET_COLOR" value="528bff"/>
+    <option name="CARET_ROW_COLOR" value="2c313c"/>
+    <option name="CONSOLE_BACKGROUND_KEY" value=""/>
+    <option name="DELETED_LINES_COLOR" value="{{theme.palette.coral}}"/>
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="{{theme.palette.chalky}}"/>
+    <option name="DIAGRAM_DEFAULT_EDGE" value="a0a7b4"/>
+    <option name="DIAGRAM_GENERALIZATION_EDGE" value="{{theme.palette.malibu}}"/>
+    <option name="DIAGRAM_INNER_EDGE" value="{{theme.palette.coral}}"/>
+    <option name="DIAGRAM_NODE_BACKGROUND" value="323844"/>
+    <option name="DIAGRAM_NODE_HEADER" value="414855"/>
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="414855"/>
+    <option name="DIAGRAM_NOTE_BORDER" value="{{theme.palette.dark}}"/>
+    <option name="DIAGRAM_REALIZATION_EDGE" value="{{theme.palette.green}}"/>
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="21252b"/>
+    <option name="DOCUMENTATION_COLOR" value="3d424b"/>
+    <option name="ERROR_HINT" value="781732"/>
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f"/>
+    <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
+    <option name="GUTTER_BACKGROUND" value="282c34"/>
+    <option name="HTML_TAG_TREE_LEVEL0" value="{{theme.palette.error}}"/>
+    <option name="HTML_TAG_TREE_LEVEL1" value="{{theme.palette.chalky}}"/>
+    <option name="HTML_TAG_TREE_LEVEL2" value="{{theme.palette.green}}"/>
+    <option name="HTML_TAG_TREE_LEVEL3" value="{{theme.palette.fountainBlue}}"/>
+    <option name="HTML_TAG_TREE_LEVEL4" value="{{theme.palette.malibu}}"/>
+    <option name="HTML_TAG_TREE_LEVEL5" value="{{theme.palette.purple}}"/>
+    <option name="INDENT_GUIDE" value="3b4048"/>
+    <option name="INFORMATION_HINT" value="3d424b"/>
+    <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="568AF2" />
+    <option name="JUPYTER.CODE_CELL_BACKGROUND" value="2d3139" />
+    <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="568AF2" />
+    <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="333841" />
+    <option name="LINE_NUMBERS_COLOR" value="495162"/>
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="737984"/>
+    <option name="LOOKUP_COLOR" value="21252b"/>
+    <option name="METHOD_SEPARATORS_COLOR" value="3b4048"/>
+    <option name="MODIFIED_LINES_COLOR" value="{{theme.palette.whiskey}}"/>
+    <option name="QUESTION_HINT" value="2e4280"/>
+    <option name="RECENT_LOCATIONS_SELECTION" value="3d424b"/>
+    <option name="RIGHT_MARGIN_COLOR" value="606368"/>
+    <option name="SELECTED_INDENT_GUIDE" value="606368"/>
+    <option name="SELECTED_TEARLINE_COLOR" value="6b6e73"/>
+    <option name="SELECTION_BACKGROUND" value="404859"/>
+    <option name="SEPARATOR_BELOW_COLOR" value=""/>
+    <option name="TEARLINE_COLOR" value="4f575f"/>
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="335027"/>
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="3e443c"/>
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="46333c"/>
+    <option name="VISUAL_INDENT_GUIDE" value="3b4048"/>
+    <option name="WHITESPACES" value="4b575f"/>
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{{theme.palette.dark}}"/>
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -969,6 +943,30 @@
       <value>
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
         <option name="EFFECT_COLOR" value="{{theme.colors.base8}}" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="BACKGROUND" value="{{theme.colors.base5}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="BACKGROUND" value="{{theme.colors.base5}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="BACKGROUND" value="{{theme.colors.base6}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="BACKGROUND" value="{{theme.palette.dark}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
       </value>
     </option>
     <option name="IGNORE.BRACKET">
