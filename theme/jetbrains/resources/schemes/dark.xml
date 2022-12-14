@@ -677,8 +677,8 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base5}}" />
-        <option name="EFFECT_COLOR" value="{{theme.colors.base5}}" />
+        <option name="FOREGROUND" value="{{theme.colors.base7}}" />
+        <option name="EFFECT_COLOR" value="{{theme.colors.base7}}" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2519,7 +2519,7 @@
     </option>
     <option name="OC.CONDITIONALLY_NOT_COMPILED">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base6}}" />
+        <option name="FOREGROUND" value="{{theme.colors.base7}}" />
       </value>
     </option>
     <option name="OC.CPP_KEYWORD">
