@@ -190,7 +190,7 @@
     </option>
     <option name="CODE_VISION_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="{{theme.colors.base5}}" />
+        <option name="FOREGROUND" value="{{theme.colors.base7}}" />
       </value>
     </option>
     <option name="CODE_VISION_HOVERED">
@@ -948,25 +948,25 @@
     <option name="INLAY_DEFAULT">
       <value>
         <option name="BACKGROUND" value="{{theme.colors.base5}}"/>
-        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base7}}"/>
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="BACKGROUND" value="{{theme.colors.base5}}"/>
-        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base7}}"/>
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="BACKGROUND" value="{{theme.colors.base6}}"/>
-        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base7}}"/>
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="BACKGROUND" value="{{theme.palette.dark}}"/>
-        <option name="FOREGROUND" value="{{theme.colors.base8}}"/>
+        <option name="FOREGROUND" value="{{theme.colors.base7}}"/>
       </value>
     </option>
     <option name="IGNORE.BRACKET">
