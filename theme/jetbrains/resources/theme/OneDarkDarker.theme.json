@@ -36,54 +36,34 @@
       "separatorColor": "{{theme.colors.base2}}"
     },
     "ActionButton": {
-      "hoverBackground": "{{theme.colors.base3}}",
-      "hoverBorderColor": "{{theme.colors.base3}}",
-      "pressedBackground": "{{theme.colors.base3}}",
-      "pressedBorderColor": "{{theme.colors.base3}}"
+      "hoverBackground": "{{theme.colors.base6}}",
+      "hoverBorderColor": "{{theme.colors.base6}}",
+      "pressedBackground": "{{theme.colors.base6}}",
+      "pressedBorderColor": "{{theme.colors.base6}}"
     },
     "Borders": {
       "ContrastBorderColor": "{{theme.colors.base3}}",
       "color": "{{theme.colors.base3}}"
     },
     "Button": {
-      "arc": 0,
-      "background": "{{theme.colors.base4}}",
-      "default": {
-        "endBackground": "{{theme.colors.base3}}",
-        "endBorderColor": "{{theme.colors.base3}}",
-        "foreground": "{{theme.colors.base9}}",
-        "focusColor": "{{theme.colors.base9}}",
-        "focusedBorderColor": "{{theme.colors.base3}}",
-        "shadowColor": "{{theme.colors.base3}}",
-        "startBackground": "{{theme.colors.base3}}",
-        "startBorderColor": "{{theme.colors.base3}}"
-      },
-      "disabledBorderColor": "{{theme.colors.base3}}",
-      "disabledText": "{{theme.colors.base6}}",
-      "endBackground": "{{theme.colors.base3}}",
-      "endBorderColor": "{{theme.colors.base3}}",
-      "focusedBorderColor": "{{theme.colors.base3}}",
-      "foreground": "{{theme.colors.base8}}",
+      "endBackground": "{{theme.colors.base6}}",
+      "endBorderColor": "{{theme.colors.base6}}",
+      "focusedBorderColor": "{{theme.colors.base6}}",
       "shadowColor": "{{theme.colors.base3}}",
-      "shadowWidth": 0,
-      "startBackground": "{{theme.colors.base3}}",
-      "startBorderColor": "{{theme.colors.base3}}"
-    },
-    "CheckBox": {
-      "background": "{{theme.colors.base2}}",
+      "startBackground": "{{theme.colors.base6}}",
+      "startBorderColor": "{{theme.colors.base6}}",
+      "disabledBorderColor": "{{theme.colors.base4}}",
       "disabledText": "{{theme.colors.base6}}",
-      "foreground": "{{theme.colors.base9}}",
-      "select": "{{theme.colors.base9}}"
-    },
-    "CheckBoxMenuItem": {
-      "acceleratorForeground": "{{theme.colors.base8}}",
-      "acceleratorSelectionForeground": "{{theme.colors.base8}}",
-      "background": "{{theme.colors.base2}}",
-      "disabledBackground": "{{theme.colors.base2}}",
-      "disabledForeground": "{{theme.colors.base6}}",
-      "foreground": "{{theme.colors.base9}}",
-      "selectionBackground": "{{theme.colors.base4}}",
-      "selectionForeground": "{{theme.colors.base9}}"
+      "default": {
+        "endBackground": "{{theme.palette.malibu}}",
+        "endBorderColor": "{{theme.palette.malibu}}",
+        "focusColor": "{{theme.colors.base9}}",
+        "focusedBorderColor": "{{theme.colors.base9}}",
+        "foreground": "{{theme.colors.base6}}",
+        "shadowColor": "{{theme.colors.base4}}",
+        "startBackground": "{{theme.palette.malibu}}",
+        "startBorderColor": "{{theme.palette.malibu}}"
+      }
     },
     "ColorChooser": {
       "background": "{{theme.colors.base2}}",
@@ -149,12 +129,13 @@
       "borderColor": "{{theme.colors.base6}}"
     },
     "DefaultTabs": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base}}",
       "borderColor": "{{theme.colors.base2}}",
-      "hoverBackground": "{{theme.colors.base3}}",
+      "hoverBackground": "{{theme.colors.base5}}",
       "inactiveUnderlineColor": "{{theme.colors.base9}}",
       "underlineColor": "{{theme.colors.base9}}",
-      "underlinedTabBackground": "{{theme.colors.base2}}",
+      "underlinedTabBackground": "{{theme.colors.base3}}",
+      "underlinedTabForeground": "{{theme.colors.base9}}",
       "underlineHeight": 2
     },
     "DragAndDrop": {
@@ -406,8 +387,11 @@
     },
     "RunWidget": {
       "foreground": "{{theme.colors.base10}}",
+      "background": "{{theme.colors.base3}}",
       "separatorColor": "{{theme.colors.base5}}",
-      "background": "{{theme.colors.base3}}"
+      "hoverBackground": "{{theme.colors.base6}}",
+      "runningBackground": "{{theme.palette.malibu}}",
+      "pressedBackground": "{{theme.colors.base6}}"
     },
     "RadioButton": {
       "background": "{{theme.colors.base2}}",
@@ -692,17 +676,17 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "{{theme.colors.base4}}",
+      "Checkbox.Background.Default.Dark": "{{theme.colors.base6}}",
       "Checkbox.Background.Disabled.Dark": "{{theme.colors.base1}}",
-      "Checkbox.Background.Selected.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Border.Default.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Border.Disabled.Dark": "{{theme.colors.base1}}",
-      "Checkbox.Border.Selected.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Focus.Thin.Default.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Focus.Thin.Selected.Dark": "{{theme.colors.base1}}",
-      "Checkbox.Focus.Wide.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Foreground.Disabled.Dark": "{{theme.colors.base8}}",
-      "Checkbox.Foreground.Selected.Dark": "{{theme.colors.base9}}"
+      "Checkbox.Background.Selected.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Border.Default.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Border.Disabled.Dark": "{{theme.colors.base4}}",
+      "Checkbox.Border.Selected.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Focus.Thin.Default.Dark": "{{theme.palette.malibu}}",
+      "Checkbox.Focus.Thin.Selected.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Focus.Wide.Dark": "{{theme.palette.malibu}}",
+      "Checkbox.Foreground.Disabled.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Foreground.Selected.Dark": "{{theme.palette.malibu}}"
     }
   }
 }
