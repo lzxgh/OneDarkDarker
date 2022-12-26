@@ -46,23 +46,25 @@
       "color": "{{theme.colors.base3}}"
     },
     "Button": {
-      "endBackground": "{{theme.colors.base6}}",
-      "endBorderColor": "{{theme.colors.base6}}",
-      "focusedBorderColor": "{{theme.colors.base6}}",
-      "shadowColor": "{{theme.colors.base3}}",
-      "startBackground": "{{theme.colors.base6}}",
+      "foreground": "{{theme.colors.base9}}",
+      "startBackground": "{{theme.colors.base4}}",
+      "endBackground": "{{theme.colors.base4}}",
       "startBorderColor": "{{theme.colors.base6}}",
+      "endBorderColor": "{{theme.colors.base6}}",
+      "shadowColor": "backgroundColor",
+      "focusedBorderColor": "{{theme.colors.base7}}",
       "disabledBorderColor": "{{theme.colors.base4}}",
       "disabledText": "{{theme.colors.base6}}",
+
       "default": {
-        "endBackground": "{{theme.palette.malibu}}",
-        "endBorderColor": "{{theme.palette.malibu}}",
-        "focusColor": "{{theme.colors.base9}}",
-        "focusedBorderColor": "{{theme.colors.base9}}",
-        "foreground": "{{theme.colors.base6}}",
-        "shadowColor": "{{theme.colors.base4}}",
-        "startBackground": "{{theme.palette.malibu}}",
-        "startBorderColor": "{{theme.palette.malibu}}"
+        "foreground": "{{theme.colors.base10}}",
+        "startBackground": "accentColor",
+        "startBorderColor": "accentColor",
+        "endBackground": "accentColor",
+        "endBorderColor": "accentColor",
+        "focusedBorderColor": "{{theme.palette.dark}}",
+        "focusColor": "{{theme.palette.dark}}",
+        "shadowColor": "{{theme.colors.base4}}"
       }
     },
     "ColorChooser": {
