@@ -392,7 +392,6 @@
       "background": "{{theme.colors.base3}}",
       "separatorColor": "{{theme.colors.base5}}",
       "hoverBackground": "{{theme.colors.base6}}",
-      "runningBackground": "{{theme.palette.malibu}}",
       "pressedBackground": "{{theme.colors.base6}}"
     },
     "RadioButton": {
