@@ -677,16 +677,16 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Background.Default.Dark": "{{theme.palette.dark}}",
       "Checkbox.Background.Disabled.Dark": "{{theme.colors.base1}}",
-      "Checkbox.Background.Selected.Dark": "{{theme.colors.base6}}",
-      "Checkbox.Border.Default.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Background.Selected.Dark": "{{theme.palette.dark}}",
+      "Checkbox.Border.Default.Dark": "{{theme.palette.dark}}",
       "Checkbox.Border.Disabled.Dark": "{{theme.colors.base4}}",
-      "Checkbox.Border.Selected.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Border.Selected.Dark": "{{theme.palette.dark}}",
       "Checkbox.Focus.Thin.Default.Dark": "{{theme.palette.malibu}}",
-      "Checkbox.Focus.Thin.Selected.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Focus.Thin.Selected.Dark": "{{theme.palette.dark}}",
       "Checkbox.Focus.Wide.Dark": "{{theme.palette.malibu}}",
-      "Checkbox.Foreground.Disabled.Dark": "{{theme.colors.base6}}",
+      "Checkbox.Foreground.Disabled.Dark": "{{theme.palette.dark}}",
       "Checkbox.Foreground.Selected.Dark": "{{theme.palette.malibu}}"
     }
   }
