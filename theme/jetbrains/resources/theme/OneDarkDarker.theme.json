@@ -2,7 +2,7 @@
   "_": "{% set theme=dark %}",
   "name": "{{theme.name}}",
   "dark": true,
-  "author": "lzx",
+  "author": "Obelisk",
   "editorScheme": "/schemes/dark.xml",
   "colors": {
     "accentColor": "#568AF2",
