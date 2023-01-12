@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.obelisk.onedarkdarker</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -29,7 +29,7 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-     Add another variant, One Dark Darker VSC.
+    Improve C++ Macro color.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -37,7 +37,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.obelisk.onedarkdarker" path="/theme/OneDarkDarker.theme.json"/>
         <themeProvider id="com.obelisk.onedarkdarkervsc" path="/theme/OneDarkDarkerVSC.theme.json"/>
+        <themeProvider id="com.obelisk.onedarkdarker" path="/theme/OneDarkDarker.theme.json"/>
     </extensions>
 </idea-plugin>
