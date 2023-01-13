@@ -94,6 +94,7 @@
       "border": "{{theme.colors.base2}}"
     },
     "CompletionPopup": {
+      "Advertiser.background": "{{theme.colors.base4}}",
       "foreground": "{{theme.colors.base9}}",
       "matchForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base5}}",
