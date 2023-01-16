@@ -29,7 +29,7 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Improve C++ Macro color.
+    Improve C++ Macro & Enum colors.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
