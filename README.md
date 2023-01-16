@@ -12,5 +12,5 @@ Supported apps:
 
 To build, use [sublate](https://github.com/espositocode/sublate):
 
-    $ pip install sublate
+    $ pip install sublate==0.2.6
     $ sublate
