@@ -2068,7 +2068,7 @@
       <value />
     </option>
     <option name="ReSharper.CPP_DOXYGEN_COMMAND">
-      <value />
+      <value name="FOREGROUND" value="{{theme.palette.purple}}" />
     </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
@@ -2464,6 +2464,11 @@
         <option name="FOREGROUND" value="{{theme.palette.malibu}}" />
       </value>
     </option>
+    <option name="org.rust.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="{{theme.palette.malibu}}" />
+      </value>
+    </option>
     <option baseAttributes="DEFAULT_IDENTIFIER" name="org.rust.MUT_BINDING" />
     <option name="org.rust.MUT_PARAMETER">
       <value>
@@ -2477,6 +2482,12 @@
     </option>
     <option name="org.rust.Q_OPERATOR">
       <value />
+    </option>
+    <option name="org.rust.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="{{theme.colors.purple}}" />
+        <option name="FONT_TYPE" value="{{theme.italicStyle.keywordStyle}}" />
+      </value>
     </option>
     <option name="org.rust.TYPE_ALIAS">
       <value>
