@@ -2068,7 +2068,9 @@
       <value />
     </option>
     <option name="ReSharper.CPP_DOXYGEN_COMMAND">
-      <value name="FOREGROUND" value="{{theme.palette.purple}}" />
+      <value>
+        <option name="FOREGROUND" value="{{theme.palette.purple}}" />
+      </value>
     </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
