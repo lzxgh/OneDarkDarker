@@ -2080,6 +2080,9 @@
         <option name="FOREGROUND" value="{{theme.palette.whiskey}}" />
       </value>
     </option>
+    <option name="ReSharper.CPP_UE4_REFLECTION_SPECIFIER_IDENTIFIER">
+      <value />
+    </option>
     <option name="ReSharper.FORMAT_STRING_ITEM">
       <value>
         <option name="FOREGROUND" value="{{theme.palette.whiskey}}" />
