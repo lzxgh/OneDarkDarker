@@ -599,9 +599,10 @@
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",
       "rowHeight": 22,
-      "selectionBackground": "{{theme.colors.base6}}",
+      "selectionBackground": "{{theme.colors.base5}}",
       "selectionForeground": "{{theme.colors.base9}}",
-      "selectionInactiveBackground": "{{theme.colors.base2}}"
+      "selectionInactiveBackground": "{{theme.colors.base4}}"
+
     },
     "UiDesigner": {
       "Panel": {
