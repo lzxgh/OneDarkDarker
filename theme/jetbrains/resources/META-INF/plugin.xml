@@ -21,16 +21,19 @@
     One Dark Darker theme for JetBrains.
 
     <ul>
-     <li>Darker background color</li>
-     <li>Italic style keywords</li>
+      <li>Darker background color</li>
+      <li>Italic style keywords</li>
     </ul>
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-     Enhance some of the C++ colors.
-     Enhance the contrast of the selected item in tree.
+     <ul>
+       <li>Slightly enhance the contrast of the comments.</li>
+       <li>Enhance some of the C++ colors.</li>
+       <li>Enhance the contrast of the selected item in tree.</li>
+     </ul>
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
