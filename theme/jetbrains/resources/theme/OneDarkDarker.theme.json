@@ -3,7 +3,7 @@
   "name": "{{theme.name}}",
   "dark": true,
   "author": "Obelisk",
-  "editorScheme": "/schemes/dark.xml",
+  "editorScheme": "/schemes/vsc.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "{{theme.colors.base2}}",
@@ -602,7 +602,6 @@
       "selectionBackground": "{{theme.colors.base5}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base4}}"
-
     },
     "UiDesigner": {
       "Panel": {
