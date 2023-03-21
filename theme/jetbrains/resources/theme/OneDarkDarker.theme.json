@@ -440,7 +440,7 @@
       "separatorColor": "{{theme.colors.base3}}"
     },
     "SidePanel": {
-      "background": "{{theme.colors.base1}}"
+      "background": "{{theme.colors.base0}}"
     },
     "Slider": {
       "background": "{{theme.colors.base2}}",
@@ -570,6 +570,7 @@
       "shortcutForeground": "{{theme.colors.base8}}"
     },
     "ToolWindow": {
+      "background": "{{theme.colors.base0}}",
       "Button": {
         "hoverBackground": "{{theme.colors.base3}}",
         "selectedForeground": "{{theme.colors.base9}}",
@@ -594,7 +595,7 @@
       }
     },
     "Tree": {
-      "background": "{{theme.colors.base1}}",
+      "background": "{{theme.colors.base0}}",
       "foreground": "{{theme.colors.base8}}",
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",

@@ -28,7 +28,7 @@
     <option name="ERROR_HINT" value="781732" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
-    <option name="GUTTER_BACKGROUND" value="282c34" />
+    <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
     <option name="HTML_TAG_TREE_LEVEL0" value="{{theme.palette.error}}" />
     <option name="HTML_TAG_TREE_LEVEL1" value="{{theme.palette.chalky}}" />
     <option name="HTML_TAG_TREE_LEVEL2" value="{{theme.palette.green}}" />
@@ -53,7 +53,7 @@
     <option name="SELECTED_TEARLINE_COLOR" value="6b6e73" />
     <option name="SELECTION_BACKGROUND" value="404859" />
     <option name="SEPARATOR_BELOW_COLOR" value="" />
-    <option name="TEARLINE_COLOR" value="4f575f" />
+    <option name="TEARLINE_COLOR" value="3b4048" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="335027" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3e443c" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="46333c" />
