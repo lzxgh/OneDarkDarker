@@ -655,6 +655,7 @@
       "foreground": "{{theme.colors.base9}}"
     },
     "WelcomeScreen": {
+      "SidePanel.background": "{{theme.colors.base0}}",
       "background": "{{theme.colors.base2}}",
       "borderColor": "{{theme.colors.base3}}",
       "captionBackground": "{{theme.colors.base1}}",
