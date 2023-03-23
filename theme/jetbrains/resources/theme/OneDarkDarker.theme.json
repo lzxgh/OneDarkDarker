@@ -440,7 +440,7 @@
       "separatorColor": "{{theme.colors.base3}}"
     },
     "SidePanel": {
-      "background": "{{theme.colors.base0}}"
+      "background": "{{theme.colors.base1}}"
     },
     "Slider": {
       "background": "{{theme.colors.base2}}",
