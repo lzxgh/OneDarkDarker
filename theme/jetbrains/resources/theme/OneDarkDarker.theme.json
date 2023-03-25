@@ -132,7 +132,7 @@
       "borderColor": "{{theme.colors.base6}}"
     },
     "DefaultTabs": {
-      "background": "{{theme.colors.base}}",
+      "background": "{{theme.colors.base2}}",
       "borderColor": "{{theme.colors.base2}}",
       "hoverBackground": "{{theme.colors.base5}}",
       "inactiveUnderlineColor": "{{theme.colors.base9}}",
@@ -324,14 +324,14 @@
       "tagForeground": "{{theme.colors.base9}}",
       "tagBackground": "{{theme.colors.base6}}",
       "Button": {
-        "installBackground": "{{theme.colors.base1}}",
-        "installBorderColor": "{{theme.colors.base1}}",
+        "installBackground": "{{theme.colors.base4}}",
+        "installBorderColor": "{{theme.colors.base4}}",
         "installForeground": "{{theme.colors.base9}}",
-        "installFocusedBackground": "{{theme.colors.base1}}",
+        "installFocusedBackground": "{{theme.colors.base4}}",
         "installFillForeground": "{{theme.colors.base8}}",
-        "installFillBackground": "{{theme.colors.base1}}",
-        "updateBackground": "{{theme.colors.base1}}",
-        "updateBorderColor": "{{theme.colors.base1}}",
+        "installFillBackground": "{{theme.colors.base4}}",
+        "updateBackground": "{{theme.colors.base4}}",
+        "updateBorderColor": "{{theme.colors.base4}}",
         "updateForeground": "{{theme.colors.base9}}"
       },
       "SearchField": {
