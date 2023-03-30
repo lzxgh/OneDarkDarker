@@ -171,7 +171,7 @@
       "inactiveUnderlineColor": "{{theme.colors.base9}}",
       "underlineColor": "{{theme.colors.base9}}",
       "underlinedTabBackground": "{{theme.colors.base3}}",
-      "underlinedTabForeground": "{{theme.colors.base9}}"
+      "underlinedTabForeground": "{{theme.colors.base10}}"
     },
     "FileColor": {
       "Yellow": "#3d3026",
