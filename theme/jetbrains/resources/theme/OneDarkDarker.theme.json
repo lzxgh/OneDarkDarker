@@ -91,7 +91,7 @@
       "selectionForeground": "{{theme.colors.base9}}"
     },
     "ComboPopup": {
-      "border": "{{theme.colors.base2}}"
+      "border": "{{theme.colors.base6}}"
     },
     "CompletionPopup": {
       "Advertiser.background": "{{theme.colors.base4}}",
@@ -150,7 +150,7 @@
       "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
       "SearchField": {
-        "background": "{{theme.colors.base3}}"
+        "background": "{{theme.colors.base4}}"
       },
       "shortcutForeground": "accentColor",
       "ToolTip": {
@@ -205,7 +205,7 @@
       "borderColor": "{{theme.colors.base2}}"
     },
     "InplaceRefactoringPopup": {
-      "borderColor": "{{theme.colors.base2}}"
+      "borderColor": "{{theme.colors.base6}}"
     },
     "Label": {
       "background": "{{theme.colors.base2}}",
@@ -335,7 +335,7 @@
         "updateForeground": "{{theme.colors.base9}}"
       },
       "SearchField": {
-        "background": "{{theme.colors.base3}}"
+        "background": "{{theme.colors.base4}}"
       },
       "SectionHeader": {
         "background": "{{theme.colors.base2}}",
@@ -350,12 +350,12 @@
     "Popup": {
       "Advertiser": {
         "background": "{{theme.colors.base2}}",
-        "borderColor": "{{theme.colors.base2}}",
+        "borderColor": "{{theme.colors.base6}}",
         "foreground": "{{theme.colors.base9}}"
       },
-      "borderColor": "{{theme.colors.base1}}",
-      "inactiveBorderColor": "{{theme.colors.base2}}",
-      "innerBorderColor": "{{theme.colors.base2}}",
+      "borderColor": "{{theme.colors.base6}}",
+      "inactiveBorderColor": "{{theme.colors.base4}}",
+      "innerBorderColor": "{{theme.colors.base6}}",
       "Header": {
         "activeBackground": "{{theme.colors.base2}}",
         "inactiveBackground": "{{theme.colors.base1}}"
@@ -365,7 +365,7 @@
       "separatorColor": "{{theme.colors.base2}}",
       "Toolbar": {
         "background": "{{theme.colors.base1}}",
-        "borderColor": "{{theme.colors.base3}}"
+        "borderColor": "{{theme.colors.base6}}"
       }
     },
     "PopupMenu": {
@@ -423,7 +423,7 @@
         "separatorForeground": "{{theme.colors.base8}}"
       },
       "SearchField": {
-        "background": "{{theme.colors.base3}}",
+        "background": "{{theme.colors.base4}}",
         "borderColor": "{{theme.colors.base1}}",
         "infoForeground": "{{theme.colors.base8}}"
       },
