@@ -138,7 +138,7 @@
       "inactiveUnderlineColor": "{{theme.colors.base9}}",
       "underlineColor": "{{theme.colors.base9}}",
       "underlinedTabBackground": "{{theme.colors.base3}}",
-      "underlinedTabForeground": "{{theme.colors.base9}}",
+      "underlinedTabForeground": "{{theme.colors.base10}}",
       "underlineHeight": 2
     },
     "DragAndDrop": {
@@ -298,7 +298,7 @@
     },
     "ParameterInfo": {
       "background": "{{theme.colors.base0}}",
-      "borderColor": "{{theme.colors.base1}}",
+      "borderColor": "{{theme.colors.base6}}",
       "currentOverloadBackground": "{{theme.colors.base0}}",
       "currentParameterForeground": "{{theme.colors.base10}}",
       "disabledForeground": "{{theme.colors.base7}}",
