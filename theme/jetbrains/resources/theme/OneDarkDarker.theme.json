@@ -31,7 +31,7 @@
       "selectionBackground": "{{theme.colors.base4}}",
       "selectionBackgroundInactive": "{{theme.colors.base4}}",
       "selectionForeground": "{{theme.colors.base9}}",
-      "selectionInactiveBackground": "{{theme.colors.base8}}",
+      "selectionInactiveBackground": "{{theme.colors.base5}}",
       "selectionInactiveForeground": "{{theme.colors.base9}}",
       "separatorColor": "{{theme.colors.base2}}"
     },
@@ -600,7 +600,7 @@
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",
       "rowHeight": 22,
-      "selectionBackground": "{{theme.colors.base5}}",
+      "selectionBackground": "{{theme.colors.base3}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base4}}"
     },
@@ -642,7 +642,8 @@
       "Log": {
         "Commit": {
           "unmatchedForeground": "{{theme.colors.base8}}",
-          "currentBranchBackground": "{{theme.colors.base3}}"
+          "currentBranchBackground": "{{theme.colors.base3}}",
+          "hoveredBackground": "{{theme.colors.base3}}"
         }
       },
       "RefLabel": {
