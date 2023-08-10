@@ -11,7 +11,7 @@
     "infoForeground": "{{theme.colors.base7}}",
     "foregroundColor": "{{theme.colors.base9}}",
     "notificationBackground": "#3d424b",
-    "selectionBackground": "#323844",
+    "selectionBackground": "{{theme.colors.base5}}",
     "selectionForeground": "#d7dae0"
   },
   "ui": {
@@ -28,7 +28,7 @@
       "inactiveBackground": "{{theme.colors.base1}}",
       "inactiveForeground": "{{theme.colors.base8}}",
       "infoForeground": "{{theme.colors.base8}}",
-      "selectionBackground": "{{theme.colors.base4}}",
+      "selectionBackground": "{{theme.colors.base5}}",
       "selectionBackgroundInactive": "{{theme.colors.base4}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base5}}",

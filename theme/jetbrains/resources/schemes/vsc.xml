@@ -51,7 +51,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="606368" />
     <option name="SELECTED_INDENT_GUIDE" value="606368" />
     <option name="SELECTED_TEARLINE_COLOR" value="6b6e73" />
-    <option name="SELECTION_BACKGROUND" value="67769660" />
+    <option name="SELECTION_BACKGROUND" value="{{theme.colors.base5}}" />
     <option name="SEPARATOR_BELOW_COLOR" value="" />
     <option name="TEARLINE_COLOR" value="3b4048" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="335027" />
