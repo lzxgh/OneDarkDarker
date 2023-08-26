@@ -3,7 +3,7 @@
   "name": "{{theme.name}}",
   "dark": true,
   "author": "Obelisk",
-  "editorScheme": "/schemes/vsc.xml",
+  "editorScheme": "/schemes/OneDarkDarker.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "{{theme.colors.base2}}",

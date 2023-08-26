@@ -1,5 +1,5 @@
 <!-- {% set theme=dark %} -->
-<scheme name="{{theme.name}} VSC" version="142" parent_scheme="Darcula">
+<scheme name="{{theme.name}}" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="{{theme.colors.green}}" />
