@@ -225,7 +225,7 @@
     "List": {
       "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
-      "selectionBackground": "{{theme.colors.base3}}",
+      "selectionBackground": "{{theme.colors.base5}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base3}}",
       "selectionInactiveForeground": "{{theme.colors.base9}}"
@@ -492,7 +492,7 @@
       "lightSelectionForeground": "{{theme.colors.base9}}",
       "lightSelectionInactiveForeground": "{{theme.colors.base9}}",
       "lightSelectionInactiveBackground": "{{theme.colors.base3}}",
-      "selectionBackground": "{{theme.colors.base3}}",
+      "selectionBackground": "{{theme.colors.base4}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base3}}",
       "selectionInactiveForeground": "{{theme.colors.base9}}",
@@ -600,7 +600,7 @@
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",
       "rowHeight": 22,
-      "selectionBackground": "{{theme.colors.base3}}",
+      "selectionBackground": "{{theme.colors.base4}}",
       "selectionForeground": "{{theme.colors.base9}}",
       "selectionInactiveBackground": "{{theme.colors.base4}}"
     },
