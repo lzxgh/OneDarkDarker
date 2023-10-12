@@ -6,7 +6,7 @@
   "editorScheme": "/schemes/OneDarkDarker.xml",
   "colors": {
     "accentColor": "#568AF2",
-    "backgroundColor": "{{theme.colors.base2}}",
+    "backgroundColor": "{{theme.colors.base1}}",
     "borderColor": "{{theme.colors.base4}}",
     "infoForeground": "{{theme.colors.base7}}",
     "foregroundColor": "{{theme.colors.base9}}",
@@ -68,7 +68,7 @@
       }
     },
     "ColorChooser": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
       "swatchesDefaultRecentColor": "{{theme.colors.base9}}"
     },
@@ -132,7 +132,7 @@
       "borderColor": "{{theme.colors.base6}}"
     },
     "DefaultTabs": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "borderColor": "{{theme.colors.base2}}",
       "hoverBackground": "{{theme.colors.base5}}",
       "inactiveUnderlineColor": "{{theme.colors.base9}}",
@@ -152,10 +152,7 @@
       "SearchField": {
         "background": "{{theme.colors.base4}}"
       },
-      "shortcutForeground": "accentColor",
-      "ToolTip": {
-        "background": "{{theme.colors.base4}}"
-      }
+      "shortcutForeground": "accentColor"
     },
     "EditorPane": {
       "background": "{{theme.colors.base1}}",
@@ -237,7 +234,7 @@
     "Menu": {
       "acceleratorForeground": "{{theme.colors.base8}}",
       "acceleratorSelectionForeground": "{{theme.colors.base9}}",
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "borderColor": "{{theme.colors.base3}}",
       "disabledBackground": "{{theme.colors.base4}}",
       "disabledForeground": "{{theme.colors.base6}}",
@@ -257,7 +254,7 @@
     },
     "MenuItem": {
       "acceleratorForeground": "{{theme.colors.base8}}",
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "disabledBackground": "{{theme.colors.base2}}",
       "disabledForeground": "{{theme.colors.base6}}",
       "foreground": "{{theme.colors.base9}}",
@@ -288,12 +285,12 @@
       }
     },
     "OptionPane": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
       "messageForeground": "{{theme.colors.base9}}"
     },
     "Panel": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base8}}"
     },
     "ParameterInfo": {
@@ -316,7 +313,7 @@
       "selectionForeground": "{{theme.colors.base9}}"
     },
     "Plugins": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "disabledForeground": "{{theme.colors.base8}}",
       "eapTagBackground": "{{theme.colors.base6}}",
       "hoverBackground": "{{theme.colors.base3}}",
@@ -338,7 +335,7 @@
         "background": "{{theme.colors.base4}}"
       },
       "SectionHeader": {
-        "background": "{{theme.colors.base2}}",
+        "background": "{{theme.colors.base1}}",
         "foreground": "{{theme.colors.base8}}"
       },
       "Tab": {
@@ -349,7 +346,7 @@
     },
     "Popup": {
       "Advertiser": {
-        "background": "{{theme.colors.base2}}",
+        "background": "{{theme.colors.base1}}",
         "borderColor": "{{theme.colors.base6}}",
         "foreground": "{{theme.colors.base9}}"
       },
@@ -357,7 +354,7 @@
       "inactiveBorderColor": "{{theme.colors.base4}}",
       "innerBorderColor": "{{theme.colors.base6}}",
       "Header": {
-        "activeBackground": "{{theme.colors.base2}}",
+        "activeBackground": "{{theme.colors.base1}}",
         "inactiveBackground": "{{theme.colors.base1}}"
       },
       "paintBorder": true,
@@ -369,7 +366,7 @@
       }
     },
     "PopupMenu": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base9}}",
       "translucentBackground": "{{theme.colors.base2}}",
       "selectionBackground": "{{theme.colors.base4}}"
@@ -443,7 +440,7 @@
       "background": "{{theme.colors.base1}}"
     },
     "Slider": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "buttonBorderColor": "{{theme.colors.base9}}",
       "buttonColor": "{{theme.colors.base9}}",
       "foreground": "{{theme.colors.base9}}",
@@ -457,10 +454,10 @@
       "foreground": "{{theme.colors.base9}}"
     },
     "Spinner": {
-      "background": "{{theme.colors.base2}}"
+      "background": "{{theme.colors.base1}}"
     },
     "SplitPane": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "highlight": "{{theme.colors.base1}}"
     },
     "SplitPaneDivider": {
@@ -470,7 +467,7 @@
       "borderColor": "{{theme.colors.base3}}"
     },
     "TabbedPane": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "contentAreaColor": "{{theme.colors.base6}}",
       "disabledForeground": "{{theme.colors.base6}}",
       "disabledUnderlineColor": "{{theme.colors.base6}}",
@@ -500,7 +497,7 @@
       "stripeColor": "{{theme.colors.base1}}"
     },
     "TableHeader": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "bottomSeparatorColor": "{{theme.colors.base3}}",
       "cellBorder": "4,0,4,0",
       "foreground": "{{theme.colors.base9}}",
@@ -560,24 +557,24 @@
     },
     "ToolTip": {
       "Actions": {
-        "background": "{{theme.colors.base2}}",
+        "background": "{{theme.colors.base1}}",
         "infoForeground": "{{theme.colors.base8}}"
       },
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "borderColor": "{{theme.colors.base6}}",
       "foreground": "{{theme.colors.base9}}",
       "infoForeground": "{{theme.colors.base8}}",
       "shortcutForeground": "{{theme.colors.base8}}"
     },
     "ToolWindow": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "Button": {
         "hoverBackground": "{{theme.colors.base3}}",
         "selectedForeground": "{{theme.colors.base9}}",
         "selectedBackground": "{{theme.colors.base3}}"
       },
       "Header": {
-        "background": "{{theme.colors.base2}}",
+        "background": "{{theme.colors.base1}}",
         "borderColor": "{{theme.colors.base3}}",
         "inactiveBackground": "{{theme.colors.base2}}"
       },
@@ -595,7 +592,7 @@
       }
     },
     "Tree": {
-      "background": "{{theme.colors.base2}}",
+      "background": "{{theme.colors.base1}}",
       "foreground": "{{theme.colors.base8}}",
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",
@@ -606,10 +603,10 @@
     },
     "UiDesigner": {
       "Panel": {
-        "background": "{{theme.colors.base2}}"
+        "background": "{{theme.colors.base1}}"
       },
       "Preview": {
-        "background": "{{theme.colors.base2}}"
+        "background": "{{theme.colors.base1}}"
       }
     },
     "ValidationTooltip": {
@@ -656,7 +653,7 @@
       "foreground": "{{theme.colors.base9}}"
     },
     "WelcomeScreen": {
-      "SidePanel.background": "{{theme.colors.base2}}",
+      "SidePanel.background": "{{theme.colors.base1}}",
       "background": "{{theme.colors.base2}}",
       "borderColor": "{{theme.colors.base3}}",
       "captionBackground": "{{theme.colors.base1}}",

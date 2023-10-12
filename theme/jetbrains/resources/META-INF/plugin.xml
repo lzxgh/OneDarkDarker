@@ -31,7 +31,8 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
      <ul>
-       <li>Quick Document background dimed.</li>
+       <li>Quick Document background dimmed.</li>
+       <li>Window background slightly dimmed except Text Editor.</li>
        <li>List selection background improved.</li>
      </ul>
   ]]></change-notes>
