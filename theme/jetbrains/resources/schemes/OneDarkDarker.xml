@@ -26,7 +26,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="21252b" />
     <option name="DOCUMENTATION_COLOR" value="{{theme.colors.base0}}" />
     <option name="ERROR_HINT" value="781732" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{{theme.palette.lightDark}}" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="{{theme.colors.base2}}" />
     <option name="HTML_TAG_TREE_LEVEL0" value="{{theme.palette.error}}" />

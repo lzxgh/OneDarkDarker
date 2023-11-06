@@ -593,12 +593,12 @@
     },
     "Tree": {
       "background": "{{theme.colors.base1}}",
-      "foreground": "{{theme.colors.base8}}",
+      "foreground": "{{theme.colors.base9}}",
       "hash": "{{theme.colors.base2}}",
       "modifiedItemForeground": "{{theme.colors.base9}}",
       "rowHeight": 22,
-      "selectionBackground": "{{theme.colors.base4}}",
-      "selectionForeground": "{{theme.colors.base9}}",
+      "selectionBackground": "{{theme.colors.base5}}",
+      "selectionForeground": "{{theme.colors.base10}}",
       "selectionInactiveBackground": "{{theme.colors.base4}}"
     },
     "UiDesigner": {
