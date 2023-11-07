@@ -31,8 +31,8 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
      <ul>
-       <li>Improve text color.</li>
-       <li>Increment support version number</li>
+       <li>Improve tree colors</li>
+       <li>Add new build support</li>
      </ul>
   ]]></change-notes>
 
