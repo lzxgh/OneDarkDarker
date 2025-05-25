@@ -1,3 +1,7 @@
 # One Dark Darker theme for JetBrains.
 
-![Atom One Dark](screenshots/one-dark-darker.png)
+## Darker Vairant
+![One Dark Darker](screenshots/one-dark-darker.png)
+
+## Night Vairant
+![One Dark Darker](screenshots/one-dark-night.png)
