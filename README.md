@@ -6,7 +6,9 @@
 ![Atom One Dark](theme/jetbrains/screenshots/one-dark-darker.png)
 
 
-To build, use [sublate](https://github.com/espositocode/sublate):
+# Build
 
-    $ pip install sublate==0.2.6
-    $ sublate
+```shellscript
+pip install PyYaml
+python generator.py -y ./colors/ThemeData.yaml -i ./theme/ -o output
+```

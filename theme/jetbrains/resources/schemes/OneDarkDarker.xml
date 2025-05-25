@@ -1,6 +1,5 @@
 <!-- {% set theme=dark %} -->
 <scheme name="{{theme.name}}" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="{{theme.colors.green}}" />
     <option name="ANNOTATIONS_COLOR" value="a0a7b4" />
@@ -2135,10 +2134,9 @@
     </option>
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="42557b" />
-        <option name="EFFECT_COLOR" value="457dff" />
-      </value>
+        <value>
+            <option name="BACKGROUND" value="404859" />
+        </value>
     </option>
     <option name="SLIM_BAD_CHARACTER">
       <value>
@@ -2257,11 +2255,10 @@
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="42557b" />
-        <option name="EFFECT_COLOR" value="457dff" />
-        <option name="ERROR_STRIPE_COLOR" value="457dff" />
-      </value>
+        <value>
+            <option name="BACKGROUND" value="404859" />
+            <option name="ERROR_STRIPE_COLOR" value="457dff" />
+        </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
@@ -2348,10 +2345,9 @@
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="42557b" />
-        <option name="EFFECT_COLOR" value="457dff" />
-      </value>
+        <value>
+            <option name="BACKGROUND" value="404859" />
+        </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
