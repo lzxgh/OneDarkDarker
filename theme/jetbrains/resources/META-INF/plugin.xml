@@ -30,8 +30,10 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    1. Add One Dark Night theme variant.
-    2. Address the issue of unclear search result highlighting.
+    <ol>
+      <li>Add One Dark Night theme variant.</li>
+      <li>Address the issue of unclear search result highlighting.</li>
+    </ol>
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
